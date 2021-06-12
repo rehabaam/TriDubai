@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDD9560267535AB00DC101F /* TriDubaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD955F267535AB00DC101F /* TriDubaiApp.swift */; };
+		FDDD9562267535AB00DC101F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD9561267535AB00DC101F /* ContentView.swift */; };
+		FDDD9564267535AF00DC101F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDD9563267535AF00DC101F /* Assets.xcassets */; };
+		FDDD9567267535AF00DC101F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDD9566267535AF00DC101F /* Preview Assets.xcassets */; };
+		FDDD9572267535B000DC101F /* TriDubaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD9571267535B000DC101F /* TriDubaiTests.swift */; };
+		FDDD957D267535B000DC101F /* TriDubaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD957C267535B000DC101F /* TriDubaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDD956E267535B000DC101F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDD9554267535AB00DC101F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDD955B267535AB00DC101F;
+			remoteInfo = TriDubai;
+		};
+		FDDD9579267535B000DC101F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDD9554267535AB00DC101F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDD955B267535AB00DC101F;
+			remoteInfo = TriDubai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDD955C267535AB00DC101F /* TriDubai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriDubai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDD955F267535AB00DC101F /* TriDubaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriDubaiApp.swift; sourceTree = "<group>"; };
+		FDDD9561267535AB00DC101F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDDD9563267535AF00DC101F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDD9566267535AF00DC101F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDDD9568267535AF00DC101F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDD956D267535B000DC101F /* TriDubaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriDubaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDD9571267535B000DC101F /* TriDubaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriDubaiTests.swift; sourceTree = "<group>"; };
+		FDDD9573267535B000DC101F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDD9578267535B000DC101F /* TriDubaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriDubaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDD957C267535B000DC101F /* TriDubaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriDubaiUITests.swift; sourceTree = "<group>"; };
+		FDDD957E267535B000DC101F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDD9559267535AB00DC101F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD956A267535B000DC101F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD9575267535B000DC101F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDD9553267535AB00DC101F = {
+			isa = PBXGroup;
+			children = (
+				FDDD955E267535AB00DC101F /* TriDubai */,
+				FDDD9570267535B000DC101F /* TriDubaiTests */,
+				FDDD957B267535B000DC101F /* TriDubaiUITests */,
+				FDDD955D267535AB00DC101F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDD955D267535AB00DC101F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD955C267535AB00DC101F /* TriDubai.app */,
+				FDDD956D267535B000DC101F /* TriDubaiTests.xctest */,
+				FDDD9578267535B000DC101F /* TriDubaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDD955E267535AB00DC101F /* TriDubai */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD955F267535AB00DC101F /* TriDubaiApp.swift */,
+				FDDD9561267535AB00DC101F /* ContentView.swift */,
+				FDDD9563267535AF00DC101F /* Assets.xcassets */,
+				FDDD9568267535AF00DC101F /* Info.plist */,
+				FDDD9565267535AF00DC101F /* Preview Content */,
+			);
+			path = TriDubai;
+			sourceTree = "<group>";
+		};
+		FDDD9565267535AF00DC101F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD9566267535AF00DC101F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDDD9570267535B000DC101F /* TriDubaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD9571267535B000DC101F /* TriDubaiTests.swift */,
+				FDDD9573267535B000DC101F /* Info.plist */,
+			);
+			path = TriDubaiTests;
+			sourceTree = "<group>";
+		};
+		FDDD957B267535B000DC101F /* TriDubaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD957C267535B000DC101F /* TriDubaiUITests.swift */,
+				FDDD957E267535B000DC101F /* Info.plist */,
+			);
+			path = TriDubaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDD955B267535AB00DC101F /* TriDubai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDD9581267535B000DC101F /* Build configuration list for PBXNativeTarget "TriDubai" */;
+			buildPhases = (
+				FDDD9558267535AB00DC101F /* Sources */,
+				FDDD9559267535AB00DC101F /* Frameworks */,
+				FDDD955A267535AB00DC101F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriDubai;
+			productName = TriDubai;
+			productReference = FDDD955C267535AB00DC101F /* TriDubai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDD956C267535B000DC101F /* TriDubaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDD9584267535B000DC101F /* Build configuration list for PBXNativeTarget "TriDubaiTests" */;
+			buildPhases = (
+				FDDD9569267535B000DC101F /* Sources */,
+				FDDD956A267535B000DC101F /* Frameworks */,
+				FDDD956B267535B000DC101F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDD956F267535B000DC101F /* PBXTargetDependency */,
+			);
+			name = TriDubaiTests;
+			productName = TriDubaiTests;
+			productReference = FDDD956D267535B000DC101F /* TriDubaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDD9577267535B000DC101F /* TriDubaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDD9587267535B000DC101F /* Build configuration list for PBXNativeTarget "TriDubaiUITests" */;
+			buildPhases = (
+				FDDD9574267535B000DC101F /* Sources */,
+				FDDD9575267535B000DC101F /* Frameworks */,
+				FDDD9576267535B000DC101F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDD957A267535B000DC101F /* PBXTargetDependency */,
+			);
+			name = TriDubaiUITests;
+			productName = TriDubaiUITests;
+			productReference = FDDD9578267535B000DC101F /* TriDubaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDD9554267535AB00DC101F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FDDD955B267535AB00DC101F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FDDD956C267535B000DC101F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FDDD955B267535AB00DC101F;
+					};
+					FDDD9577267535B000DC101F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FDDD955B267535AB00DC101F;
+					};
+				};
+			};
+			buildConfigurationList = FDDD9557267535AB00DC101F /* Build configuration list for PBXProject "TriDubai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDD9553267535AB00DC101F;
+			productRefGroup = FDDD955D267535AB00DC101F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDD955B267535AB00DC101F /* TriDubai */,
+				FDDD956C267535B000DC101F /* TriDubaiTests */,
+				FDDD9577267535B000DC101F /* TriDubaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDD955A267535AB00DC101F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDD9567267535AF00DC101F /* Preview Assets.xcassets in Resources */,
+				FDDD9564267535AF00DC101F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD956B267535B000DC101F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD9576267535B000DC101F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDD9558267535AB00DC101F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDD9562267535AB00DC101F /* ContentView.swift in Sources */,
+				FDDD9560267535AB00DC101F /* TriDubaiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD9569267535B000DC101F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDD9572267535B000DC101F /* TriDubaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD9574267535B000DC101F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDD957D267535B000DC101F /* TriDubaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDD956F267535B000DC101F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDD955B267535AB00DC101F /* TriDubai */;
+			targetProxy = FDDD956E267535B000DC101F /* PBXContainerItemProxy */;
+		};
+		FDDD957A267535B000DC101F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDD955B267535AB00DC101F /* TriDubai */;
+			targetProxy = FDDD9579267535B000DC101F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDDD957F267535B000DC101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDD9580267535B000DC101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDD9582267535B000DC101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TriDubai/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TriDubai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.TriDubai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDD9583267535B000DC101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TriDubai/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TriDubai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.TriDubai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDDD9585267535B000DC101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriDubaiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.TriDubaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriDubai.app/TriDubai";
+			};
+			name = Debug;
+		};
+		FDDD9586267535B000DC101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriDubaiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.TriDubaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriDubai.app/TriDubai";
+			};
+			name = Release;
+		};
+		FDDD9588267535B000DC101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriDubaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.TriDubaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriDubai;
+			};
+			name = Debug;
+		};
+		FDDD9589267535B000DC101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriDubaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.TriDubaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriDubai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDD9557267535AB00DC101F /* Build configuration list for PBXProject "TriDubai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDD957F267535B000DC101F /* Debug */,
+				FDDD9580267535B000DC101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDD9581267535B000DC101F /* Build configuration list for PBXNativeTarget "TriDubai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDD9582267535B000DC101F /* Debug */,
+				FDDD9583267535B000DC101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDD9584267535B000DC101F /* Build configuration list for PBXNativeTarget "TriDubaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDD9585267535B000DC101F /* Debug */,
+				FDDD9586267535B000DC101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDD9587267535B000DC101F /* Build configuration list for PBXNativeTarget "TriDubaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDD9588267535B000DC101F /* Debug */,
+				FDDD9589267535B000DC101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDD9554267535AB00DC101F /* Project object */;
+}
